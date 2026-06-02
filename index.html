@@ -19,10 +19,10 @@
           },
           colors: {
             brand: {
-              darkGreen: '#142821', /* Verde profundo de alta autoridade e saúde premium */
-              gold: '#C5A059', /* Dourado sofisticado focado em transformação valorosa */
+              darkGreen: '#142821', 
+              gold: '#C5A059', 
               goldHover: '#B38F48',
-              lightBg: '#F9F8F6', /* Off-white aquecido e elegante */
+              lightBg: '#F9F8F6', 
               slate: '#4A5D55',
               softPink: '#E8DCD3'
             }
@@ -31,195 +31,95 @@
       }
     }
   </script>
-
-  <style>
-    * { margin:0; padding:0; box-sizing:border-box; }
-    body { font-family: 'Plus Jakarta Sans', sans-serif; background: #F9F8F6; color: #142821; overflow-x: hidden; }
-    
-    .btn-premium {
-      transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
-    }
-    .btn-premium:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 12px 24px rgba(197, 160, 89, 0.3);
-    }
-  </style>
 </head>
 <body>
 
-  <!-- DOBRA 1: HEADER -->
+  <!-- HEADER -->
   <header class="bg-white/90 backdrop-blur-md sticky top-0 w-full z-50 border-b border-brand-darkGreen/5">
     <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
       <div class="font-serif text-lg md:text-xl tracking-wide text-brand-darkGreen font-normal">
         MICHELE DAL SANTOS <span class="font-sans text-[9px] block tracking-widest text-brand-gold font-bold uppercase mt-0.5">Nutricionista Clínica</span>
       </div>
-      <a href="#cta-section" class="btn-premium bg-brand-darkGreen text-white px-5 py-2.5 rounded-full text-xs font-bold tracking-wider uppercase">
+      <a href="https://pay.kiwify.com.br/FGnvLEi" target="_blank" class="bg-brand-darkGreen text-white px-5 py-2.5 rounded-full text-xs font-bold tracking-wider uppercase transition hover:bg-brand-gold">
         Garanta Sua Vaga
       </a>
     </div>
   </header>
 
-  <!-- DOBRA 2: HERO SECTION -->
+  <!-- HERO SECTION -->
   <section class="py-16 md:py-24 bg-gradient-to-b from-white to-brand-lightBg relative">
     <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-12 gap-12 items-center">
       <div class="md:col-span-7 space-y-6">
-        <span class="inline-flex items-center gap-2 text-brand-darkGreen bg-brand-darkGreen/5 px-4 py-1.5 rounded-full font-bold text-xs uppercase tracking-widest">
-          <i data-lucide="sparkles" class="w-3.5 h-3.5 text-brand-gold"></i> Programa Nutricional Exclusivo
-        </span>
-        <h1 class="font-serif text-4xl md:text-5xl lg:text-6xl text-brand-darkGreen leading-[1.15] font-normal">
+        <h1 class="font-serif text-4xl md:text-6xl text-brand-darkGreen leading-[1.15] font-normal">
           Elimine até <span class="italic font-normal text-brand-gold">12kg de gordura</span> em 3 meses.
         </h1>
         <p class="text-base md:text-lg text-brand-slate max-w-xl leading-relaxed font-medium">
           Com o Método Reprograma e Emagreça você diminui medidas e aquela barriguinha que tanto incomoda. Volte a usar roupas menores, a se sentir bonita, atraente e cheia de disposição no seu dia a dia.
         </p>
         <div class="pt-4">
-          <a href="https://wa.me/5500000000000?text=Quero%20conhecer%20o%20Metodo%20Reprograma%20e%20Emagreca" target="_blank" class="btn-premium inline-flex items-center gap-3 bg-brand-gold text-white px-10 py-4 rounded-full font-bold text-sm tracking-wide shadow-md">
+          <a href="https://pay.kiwify.com.br/FGnvLEi" target="_blank" class="inline-flex items-center gap-3 bg-brand-gold text-white px-10 py-4 rounded-full font-bold text-sm tracking-wide shadow-md transition hover:bg-brand-goldHover">
             QUERO EMAGRECER <i data-lucide="arrow-right" class="w-4 h-4"></i>
           </a>
         </div>
       </div>
       
       <div class="md:col-span-5 relative">
-        <div class="absolute -inset-3 border border-brand-gold/20 rounded-2xl transform translate-x-2 translate-y-2 -z-10"></div>
-        <img src="img/micheledalsantos.webp" alt="Michele Dal Santos - Nutricionista" class="rounded-2xl w-full aspect-[4/5] object-cover shadow-xl bg-brand-softPink"
-             onerror="this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1376&auto=format&fit=crop';">
+        <img src="img/micheledalsantos.webp" alt="Michele Dal Santos" class="rounded-2xl w-full aspect-[4/5] object-cover shadow-xl bg-brand-softPink">
       </div>
     </div>
   </section>
 
-  <!-- DOBRA 3: O FORMATO DO PROGRAMA (ENTREGA EXCLUSIVA) -->
-  <section class="py-20 bg-brand-darkGreen text-white relative overflow-hidden">
-    <div class="absolute top-0 right-0 w-64 h-64 bg-brand-gold/5 rounded-full blur-3xl"></div>
-    <div class="max-w-4xl mx-auto px-6 text-center space-y-8 relative z-10">
-      <span class="text-xs uppercase tracking-widest text-brand-gold font-bold">A Estrutura do Método</span>
-      <h2 class="font-serif text-3xl md:text-4xl font-normal leading-tight">Como funciona o acompanhamento?</h2>
-      <p class="text-slate-300 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">
-        Um programa de **5 encontros presenciais** (realizados a cada 21 dias) criteriosamente desenhado para mulheres que buscam emagrecer de **5 a 12kg**, reprogramar o corpo e a mente e consolidar resultados duradouros sem sofrer com dietas restritivas.
+  <!-- FORMATO DO PROGRAMA -->
+  <section class="py-20 bg-brand-darkGreen text-white text-center">
+    <div class="max-w-4xl mx-auto px-6 space-y-6">
+      <h2 class="font-serif text-3xl md:text-4xl">Como funciona?</h2>
+      <p class="text-slate-300 leading-relaxed">
+        Um programa de <strong>5 encontros presenciais</strong> (a cada 21 dias) criado para mulheres que querem emagrecer entre <strong>5 a 12kg</strong>, reprogramar a mente e o corpo e conquistar resultados duradouros sem dietas restritivas.
       </p>
-      <div class="inline-flex items-center gap-6 text-xs text-brand-gold font-semibold tracking-wider uppercase border-t border-b border-white/10 py-4 px-8">
-        <span><i data-lucide="calendar" class="inline w-4 h-4 mr-1.5"></i> 5 Encontros</span>
-        <span class="text-white/30">•</span>
-        <span><i data-lucide="refresh-cw" class="inline w-4 h-4 mr-1.5"></i> Ciclos de 21 Dias</span>
-        <span class="text-white/30">•</span>
-        <span><i data-lucide="ban" class="inline w-4 h-4 mr-1.5"></i> Sem Restrições Radicais</span>
-      </div>
     </div>
   </section>
 
-  <!-- DOBRA 4: DIAGNÓSTICO (PARA QUEM É) -->
+  <!-- DIAGNÓSTICO -->
   <section class="py-24 bg-white">
     <div class="max-w-5xl mx-auto px-6">
-      <div class="text-center max-w-2xl mx-auto mb-16">
-        <span class="text-xs uppercase tracking-widest text-brand-gold font-bold">Identificação</span>
-        <h2 class="font-serif text-3xl md:text-4xl text-brand-darkGreen mt-2">Este programa foi feito para você?</h2>
-        <div class="w-12 h-0.5 bg-brand-gold mx-auto mt-4"></div>
-      </div>
-
-      <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-        <div class="p-6 bg-brand-lightBg rounded-xl border border-brand-darkGreen/5 flex gap-4 items-start">
-          <div class="bg-brand-darkGreen/5 p-2 rounded-lg text-brand-darkGreen"><i data-lucide="check" class="w-5 h-5 text-brand-gold"></i></div>
-          <p class="text-sm text-brand-slate font-medium leading-relaxed">
-            Mulheres que já tentaram várias dietas mirabolantes sem alcançar nenhum sucesso real.
-          </p>
+      <h2 class="font-serif text-3xl text-brand-darkGreen text-center mb-12">Para quem é:</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="p-6 bg-brand-lightBg rounded-xl border border-brand-darkGreen/5">
+          <p class="text-sm text-brand-slate font-medium"><strong>Mulheres que já tentaram várias dietas sem sucesso.</strong></p>
         </div>
-        <div class="p-6 bg-brand-lightBg rounded-xl border border-brand-darkGreen/5 flex gap-4 items-start">
-          <div class="bg-brand-darkGreen/5 p-2 rounded-lg text-brand-darkGreen"><i data-lucide="check" class="w-5 h-5 text-brand-gold"></i></div>
-          <p class="text-sm text-brand-slate font-medium leading-relaxed">
-            Quem deseja emagrecer de forma consistente sem abrir mão da saúde e do prazer em comer.
-          </p>
+        <div class="p-6 bg-brand-lightBg rounded-xl border border-brand-darkGreen/5">
+          <p class="text-sm text-brand-slate font-medium"><strong>Quem deseja emagrecer de forma consistente sem perder saúde e prazer em comer.</strong></p>
         </div>
-        <div class="p-6 bg-brand-lightBg rounded-xl border border-brand-darkGreen/5 flex gap-4 items-start">
-          <div class="bg-brand-darkGreen/5 p-2 rounded-lg text-brand-darkGreen"><i data-lucide="check" class="w-5 h-5 text-brand-gold"></i></div>
-          <p class="text-sm text-brand-slate font-medium leading-relaxed">
-            Quem sofre frequentemente com ansiedade, compulsão alimentar, cansaço crônico, inchaço e desorganização.
-          </p>
+        <div class="p-6 bg-brand-lightBg rounded-xl border border-brand-darkGreen/5">
+          <p class="text-sm text-brand-slate font-medium"><strong>Quem sofre com ansiedade, compulsão alimentar, cansaço, inchaço e dificuldade em se organizar.</strong></p>
         </div>
-        <div class="p-6 bg-brand-lightBg rounded-xl border border-brand-darkGreen/5 flex gap-4 items-start">
-          <div class="bg-brand-darkGreen/5 p-2 rounded-lg text-brand-darkGreen"><i data-lucide="check" class="w-5 h-5 text-brand-gold"></i></div>
-          <p class="text-sm text-brand-slate font-medium leading-relaxed">
-            Quem quer aprender de uma vez por todas a se alimentar de forma extremamente prática e definitiva.
-          </p>
+        <div class="p-6 bg-brand-lightBg rounded-xl border border-brand-darkGreen/5">
+          <p class="text-sm text-brand-slate font-medium"><strong>Quem quer aprender a se alimentar de forma prática e definitiva.</strong></p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- DOBRA 5: OS GANHOS / TRANSFORMAÇÃO -->
+  <!-- O QUE VAI CONQUISTAR -->
   <section class="py-24 bg-brand-lightBg">
-    <div class="max-w-5xl mx-auto px-6">
-      <div class="text-center max-w-2xl mx-auto mb-16">
-        <span class="text-xs uppercase tracking-widest text-brand-gold font-bold">A Transformação</span>
-        <h2 class="font-serif text-3xl md:text-4xl text-brand-darkGreen mt-2">O que você vai conquistar no Método:</h2>
-        <div class="w-12 h-0.5 bg-brand-gold mx-auto mt-4"></div>
-      </div>
-
-      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        <div class="bg-white p-6 rounded-xl border border-brand-darkGreen/5 space-y-3">
-          <i data-lucide="shield-check" class="w-8 h-8 text-brand-gold"></i>
-          <h4 class="font-bold text-brand-darkGreen text-base">Peso Sustentável</h4>
-          <p class="text-xs text-brand-slate font-medium leading-relaxed">Perda de peso real, saudável e duradoura, blindando seu corpo contra o temido efeito sanfona.</p>
-        </div>
-        <div class="bg-white p-6 rounded-xl border border-brand-darkGreen/5 space-y-3">
-          <i data-lucide="zap" class="w-8 h-8 text-brand-gold"></i>
-          <h4 class="font-bold text-brand-darkGreen text-base">Vitalidade Diária</h4>
-          <p class="text-xs text-brand-slate font-medium leading-relaxed">Muito mais energia, foco e disposição física do momento em que acorda até a hora de dormir.</p>
-        </div>
-        <div class="bg-white p-6 rounded-xl border border-brand-darkGreen/5 space-y-3">
-          <i data-lucide="brain" class="w-8 h-8 text-brand-gold"></i>
-          <h4 class="font-bold text-brand-darkGreen text-base">Mente Fortalecida</h4>
-          <p class="text-xs text-brand-slate font-medium leading-relaxed">Reprogramação profunda dos pensamentos sabotadores que antes bloqueavam seu emagrecimento.</p>
-        </div>
-        <div class="bg-white p-6 rounded-xl border border-brand-darkGreen/5 space-y-3">
-          <i data-lucide="eye" class="w-8 h-8 text-brand-gold"></i>
-          <h4 class="font-bold text-brand-darkGreen text-base">Clareza e Consciência</h4>
-          <p class="text-xs text-brand-slate font-medium leading-relaxed">Entendimento claro sobre os sinais reais de fome e saciedade, permitindo escolhas inteligentes.</p>
-        </div>
-        <div class="bg-white p-6 rounded-xl border border-brand-darkGreen/5 space-y-3 lg:col-span-2">
-          <i data-lucide="smile" class="w-8 h-8 text-brand-gold"></i>
-          <h4 class="font-bold text-brand-darkGreen text-base">Rotina Alimentar Leve</h4>
-          <p class="text-xs text-brand-slate font-medium leading-relaxed">Construção de uma rotina perfeitamente flexível e muito prazerosa, sem terrorismos alimentares desnecessários.</p>
+    <div class="max-w-5xl mx-auto px-6 text-center space-y-12">
+      <h2 class="font-serif text-3xl text-brand-darkGreen">O que você vai conquistar:</h2>
+      <div class="grid md:grid-cols-2 gap-8 text-left">
+        <ul class="space-y-4 text-brand-slate font-medium text-sm">
+          <li>• <strong>Perda de peso real e sustentável</strong> (sem efeito sanfona).</li>
+          <li>• <strong>Mais energia e disposição</strong> no dia a dia.</li>
+          <li>• <strong>Reprogramação dos pensamentos sabotadores</strong>.</li>
+          <li>• <strong>Clareza sobre fome, saciedade</strong> e escolhas inteligentes.</li>
+          <li>• <strong>Rotina alimentar leve</strong>, flexível e prazerosa.</li>
+        </ul>
+        <div class="flex items-center justify-center">
+          <a href="https://pay.kiwify.com.br/FGnvLEi" target="_blank" class="inline-block bg-brand-gold text-white px-12 py-5 rounded-full font-bold text-sm shadow-lg transition hover:bg-brand-goldHover">
+            QUERO EMAGRECER
+          </a>
         </div>
       </div>
     </div>
   </section>
-
-  <!-- DOBRA 6: MANIFESTO DA EXPERT (SOBRE) -->
-  <section class="py-24 bg-white">
-    <div class="max-w-4xl mx-auto px-6 grid md:grid-cols-12 gap-12 items-center">
-      <div class="md:col-span-4">
-        <img src="img/micheledalsantos.webp" alt="Michele Dal Santos" class="rounded-xl w-full aspect-[3/4] object-cover grayscale tracking-wide"
-             onerror="this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1376&auto=format&fit=crop';">
-      </div>
-      <div class="md:col-span-8 space-y-6">
-        <span class="font-serif text-xs uppercase tracking-widest text-brand-gold font-bold">Sua Mentora</span>
-        <h3 class="font-serif text-3xl text-brand-darkGreen">Nutricionista Michele Dal Santos</h3>
-        <blockquote class="border-l-2 border-brand-gold pl-4 italic text-brand-slate text-sm leading-relaxed font-medium">
-          "O Método Reprograma e Emagreça não é apenas uma dieta, é um acompanhamento próximo e um processo completo de transformação pessoal. Se você já sentou na mesa de consultórios, já tentou de tudo e sente que precisa de um direcionamento firme, humano e verdadeiramente eficiente, este programa foi feito sob medida para você."
-        </blockquote>
-      </div>
-    </div>
-  </section>
-
-  <!-- DOBRA 7: SEÇÃO DE CONVERSÃO FINAL (CTA) -->
-  <section id="cta-section" class="py-24 bg-brand-darkGreen text-white text-center relative overflow-hidden">
-    <div class="max-w-3xl mx-auto px-6 relative z-10 space-y-8">
-      <h2 class="font-serif text-3xl md:text-5xl font-normal leading-tight">Reconquiste o controle do seu corpo e da sua autoestima.</h2>
-      <p class="text-slate-300 text-sm md:text-base max-w-xl mx-auto font-medium leading-relaxed">
-        As vagas para os grupos de encontros presenciais são extremamente restritas devido ao modelo de acompanhamento de proximidade. Toque abaixo para verificar a disponibilidade.
-      </p>
-      <div>
-        <a href="https://wa.me/5500000000000?text=Quero%20conhecer%20o%20Metodo%20Reprograma%20e%20Emagreca" target="_blank" class="btn-premium inline-flex items-center gap-3 bg-brand-gold text-white px-12 py-4.5 rounded-full font-bold text-sm tracking-wide shadow-xl">
-          QUERO EMAGRECER AGORA
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- DOBRA 8: FOOTER -->
-  <footer class="py-12 bg-white text-center text-brand-slate text-[10px] font-medium tracking-wider uppercase border-t border-brand-darkGreen/5 space-y-2">
-    <p>© 2026 Michele Dal Santos — Método Reprograma e Emagreça — Todos os direitos reservados.</p>
-    <div class="text-[9px] text-brand-slate/60 lowercase font-sans">Condições e suporte • Política de Privacidade</div>
-  </footer>
 
   <script>
     lucide.createIcons();
